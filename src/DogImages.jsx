@@ -1,5 +1,5 @@
-import withLoader from './withLoader';
-import withHover from './withHover';
+import withLoader from "./withLoader";
+import withHover from "./withHover";
 
 function DogImages(props) {
   debugger;
@@ -21,6 +21,6 @@ function DogImages(props) {
 }
 
 export default withHover(
-  withLoader(DogImages, 'https://dog.ceo/api/breed/labrador/images/random/6')
+  withLoader(DogImages, "https://dog.ceo/api/breed/labrador/images/random/6")
   // we are passing withLoader return component as a param inside withHover
 );

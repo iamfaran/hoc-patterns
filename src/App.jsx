@@ -1,11 +1,11 @@
-import { useState } from 'react';
-import DogImages from './DogImages';
+import { useState } from "react";
+import DogImages from "./DogImages";
 
 function App() {
   return (
     <div className="App">
       <h1>
-        Browse Dog Images{' '}
+        Browse Dog Images{" "}
         <span role="img" aria-label="emoji">
           🐕
         </span>
